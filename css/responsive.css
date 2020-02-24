@@ -140,24 +140,24 @@
 
 @media only screen and (max-width: 450px) {
     #social .fa {padding: 7px; font-size: 12px;}
-    #slider {height: 1875px;}
+    #slider {height: 1925px;}
     #skills {height: 650px; flex-direction: column; justify-content: flex-end; align-items: center;}
     .profession .fa {padding: 7px; height: 20px; font-size: 15px;}
     h1 {top: 20px; font-size: 20px;}
     h2 {font-size: 14px;}
     h3 {font-size: 12px;}
-    p {font-size: 11px; margin: 0px;}
+    p {font-size: 12px; margin: 0px;}
     #gamedev {height: 625px;}
     #games {height: 550px; top: 75px;}
-    #SCP {height: 125px; width: 95%; border: 2px solid var(--crna);}
-    #Init {height: 125px; width: 95%; border: 2px solid var(--crna);}
-    #Unknwn {height: 125px; width: 95%; border: 2px solid var(--crna);}
+    #SCP {height: 125px; width: 98%; border: 2px solid var(--crna);}
+    #Init {height: 125px; width: 98%; border: 2px solid var(--crna);}
+    #Unknwn {height: 125px; width: 98%; border: 2px solid var(--crna);}
     .gameLogo#Found {height: 125px; width: 125px; border-right: 2px solid var(--crna);}
     .gameLogo#Alpha {height: 125px; width: 125px; border-left: 2px solid var(--crna);}
     .gameLogo#Project {height: 125px; width: 125px; border-right: 2px solid var(--crna);}
     #videos {height: 300px;}
     iframe {width:280px; height: 156px;}
-    #about {height: 280px; width: 50%;}
+    #about {height: 335px; width: 50%;}
     #about img {width: 75px; height: 75px;}
     footer a {font-size: 10px;}
     label {font-size: 12px;}
