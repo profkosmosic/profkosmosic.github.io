@@ -37,7 +37,7 @@
 
 @media only screen and (max-width: 1050px) {
     header {height: 75px;}
-    #logo {height: 75px; width: 300px;}
+    #logo {height: 75px; width: 300px; left: 5px;}
     #logo img {height: 75px; width: 234px;}
     #social {height: 75px;}
     #social .fa {padding: 12px; font-size: 20px;}
@@ -104,7 +104,7 @@
 
 @media only screen and (max-width: 600px) {
     header {height: 50px}
-    #logo {height: 50px; width: 200px;}
+    #logo {height: 50px; width: 200px; left: 2px;}
     #logo img {height: 50px; width: 156px;}
     #social {height: 50px;}
     #social .fa {padding: 10px; font-size: 15px;}
