@@ -50,7 +50,7 @@
     h1 {top: 30px; font-size: 35px;}
     h2 {font-size: 20px;}
     h3 {font-size: 18px;}
-    p {font-size: 16px; margin: 5px;}
+    p {font-size: 18px; margin: 5px;}
     #gamedev {height: 1100px;}
     #games {height: 900px;}
     #SCP {height: 250px; width: 90%;}
@@ -81,7 +81,7 @@
     .profession .fa {padding: 10px; height: 30px; font-size: 25px; border: 3px solid var(--crna);}
     h2 {font-size: 18px;}
     h3 {font-size: 16px;}
-    p {font-size: 18px;}
+    p {font-size: 16px;}
     #gamedev {height: 1000px;}
     #games {height: 800px;}
     #SCP {height: 225px; width: 90%; border: 3px solid var(--crna);}
@@ -94,7 +94,7 @@
     iframe {width:450px; height: 252px;}
     #about {height: 500px; width: 40%;}
     #about img {width: 150px; height: 150px; margin-top: 75px;}
-    footer a {font-size: 14px;}
+    footer a {font-size: 16px;}
     label {font-size: 18px;}
     #news {font-size: 16px;}
     #submitnews {font-size: 16px;}
@@ -130,7 +130,7 @@
     #about {height: 425px; width: 45%;}
     #about img {width: 125px; height: 125px; margin-top: 25px; border: 2px solid var(--crna);}
     footer {height: 75px;}
-    footer a {font-size: 12px;}
+    footer a {font-size: 14px;}
     label {font-size: 16px;}
     #news {font-size: 14px;}
     #submitnews {font-size: 14px;}
@@ -146,12 +146,12 @@
     h1 {top: 20px; font-size: 20px;}
     h2 {font-size: 14px;}
     h3 {font-size: 12px;}
-    p {font-size: 12px; margin: 0px;}
+    p {font-size: 3.4vw; margin: 0px;}
     #gamedev {height: 625px;}
     #games {height: 550px; top: 75px;}
-    #SCP {height: 125px; width: 98%; border: 2px solid var(--crna);}
-    #Init {height: 125px; width: 98%; border: 2px solid var(--crna);}
-    #Unknwn {height: 125px; width: 98%; border: 2px solid var(--crna);}
+    #SCP {height: 125px; width: 99%; border: 2px solid var(--crna);}
+    #Init {height: 125px; width: 99%; border: 2px solid var(--crna);}
+    #Unknwn {height: 125px; width: 99%; border: 2px solid var(--crna);}
     .gameLogo#Found {height: 125px; width: 125px; border-right: 2px solid var(--crna);}
     .gameLogo#Alpha {height: 125px; width: 125px; border-left: 2px solid var(--crna);}
     .gameLogo#Project {height: 125px; width: 125px; border-right: 2px solid var(--crna);}
@@ -159,7 +159,7 @@
     iframe {width:280px; height: 156px;}
     #about {height: 335px; width: 50%;}
     #about img {width: 75px; height: 75px;}
-    footer a {font-size: 10px;}
+    footer a {font-size: 12px;}
     label {font-size: 12px;}
     #news {font-size: 10px;}
     #submitnews {font-size: 10px;}
