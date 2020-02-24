@@ -1,0 +1,334 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+:root {
+    --crna: #000000;
+    --bela: #ffffff;
+    --crvena: #a12020;
+    --siva: #666;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--crna);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 3px 3px 5px var(--siva);
+}
+
+#logo {
+    width: 350px;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+}
+
+#logo img {
+    width: 312px;
+    height: 100px;
+}
+
+#social {
+    width: 45%;
+    height: 100px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#social .fa {
+    font-size: 24px;
+    padding: 15px;
+    color: var(--bela);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--bela);
+}
+
+#social .fa:hover {
+    color: var(--crna);
+    background-color: var(--bela);
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: var(--bela);
+    border-bottom: 4px solid var(--crna);
+    position: sticky;
+    top: 100px;
+    z-index: 1;
+    box-shadow: 3px 3px 5px var(--siva);
+}
+
+ul {
+    height: inherit;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--crna);
+    font-family: 'Squada One', cursive;
+    font-size: 32px;
+}
+
+li a:hover {
+    color: var(--crvena);
+}
+
+#slider {
+    width: 100%;
+    height: 3500px;
+    background-image: url(../img/GamePattern.png);
+    background-repeat: space;
+    background-size: cover;
+}
+
+#skills {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 50px;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.profession {
+    width: 30%;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.profession .fa {
+    padding: 20px;
+    height: 60px;
+    font-size: 55px;
+    border-radius: 50%;
+    border: 5px solid var(--crna);
+}
+
+.profession .fa:hover {
+    color: var(--bela);
+    background-color: var(--crna);
+}
+
+.profession#game {
+    border-left: 5px solid var(--crna);
+    border-right: 5px solid var(--crna);
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: var(--crvena);
+    text-align: center;
+    font-weight: normal;
+}
+
+h3 {
+    color: var(--bela);
+    font-family: 'Squada One', cursive;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Squada One', cursive;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.important {
+    color: var(--crvena);
+    font-style: normal;
+}
+
+#gamedev {
+    width: 100%;
+    height: 1250px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#games {
+    width: inherit;
+    height: 1100px;
+    position: absolute;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#SCP {
+    width: 80%;
+    height: 325px;
+    border: 5px solid var(--crna);
+    box-shadow: 3px 3px 5px var(--siva);
+}
+
+#Init {
+    width: 80%;
+    height: 325px;
+    border: 5px solid var(--crna);
+    box-shadow: 3px 3px 5px var(--siva);
+}
+
+#Unknwn {
+    width: 80%;
+    height: 325px;
+    border: 5px solid var(--crna);
+    box-shadow: 3px 3px 5px var(--siva);
+}
+
+.gameLogo#Found {
+    width: 325px;
+    height: 325px;
+    background-image: url('../img/SCPLogo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    border-right: 5px solid var(--crna);
+}
+
+.gameLogo#Found:hover {
+    background-image: url('../img/SCPAction.gif');
+}
+
+.gameLogo#Alpha {
+    width: 325px;
+    height: 325px;
+    background-image: url('../img/InitLogo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    border-left: 5px solid var(--crna);
+}
+
+.gameLogo#Alpha:hover {
+    background-image: url('../img/InitAction.gif');
+}
+
+.gameLogo#Project {
+    width: 325px;
+    height: 325px;
+    background-image: url('../img/NoNameLogo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    border-right: 5px solid var(--crna);
+}
+
+.gameLogo#Project:hover {
+    background-image: url('../img/NoNameAction.gif');
+}
+
+#videos {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+iframe {
+    width: 650px;
+    height: 364px;
+    margin: 10px;
+    border: 4px solid var(--crna);
+    box-shadow: 3px 3px 5px var(--siva);
+}
+
+#about {
+    width: 25%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about img {
+    width: 250px;
+    height: 250px;
+    border: 5px solid var(--crna);
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+#about img:hover {
+    filter: grayscale(100%);
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/prism.png);
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 5px var(--siva);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--bela);
+    font-size: 24px;
+    font-family: 'Squada One', cursive;
+    margin-right: 5px;
+}
+
+footer a:hover {
+    color: var(--crvena);
+}
+
+label {
+    color: var(--bela);
+    font-family: 'Squada One', cursive;
+    font-size: 26px;
+}
+
+#news {
+    font-family: 'Squada One', cursive;
+    font-size: 24px;
+}
+
+#submitnews {
+    font-family: 'Squada One', cursive;
+    font-size: 24px;
+}
