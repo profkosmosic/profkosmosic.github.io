@@ -140,7 +140,7 @@
 
 @media only screen and (max-width: 450px) {
     #social .fa {padding: 7px; font-size: 12px;}
-    #slider {height: 2050px;}
+    #slider {height: 2025px;}
     #skills {height: 675px; flex-direction: column; justify-content: flex-end; align-items: center;}
     .profession .fa {padding: 7px; height: 20px; font-size: 15px;}
     h1 {top: 20px; font-size: 20px;}
