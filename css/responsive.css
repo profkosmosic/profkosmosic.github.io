@@ -110,24 +110,24 @@
     #social .fa {padding: 10px; font-size: 15px;}
     nav {height: 35px;}
     li a {font-size: 16px;}
-    #slider {height: 2250px;}
+    #slider {height: 2275px;}
     .profession {height: 200px; width: 85%;}
     .profession .fa {padding: 10px; height: 30px; font-size: 25px; border: 2px solid var(--crna);}
     h1 {top: 25px; font-size: 25px;}
     h2 {font-size: 18px;}
     h3 {font-size: 14px;}
-    p {font-size: 15px; margin: 2px;}
+    p {font-size: 16px; margin: 2px;}
     #gamedev {height: 700px;}
     #games {height: 600px; top: 100px;}
-    #SCP {height: 175px; width: 90%;}
-    #Init {height: 175px; width: 90%;}
-    #Unknwn {height: 175px; width: 90%;}
+    #SCP {height: 175px; width: 95%;}
+    #Init {height: 175px; width: 95%;}
+    #Unknwn {height: 175px; width: 95%;}
     .gameLogo#Found {height: 175px; width: 175px;}
     .gameLogo#Alpha {height: 175px; width: 175px;}
     .gameLogo#Project {height: 175px; width: 175px;}
     #videos {height: 400px;}
     iframe {width:350px; height: 196px;}
-    #about {height: 425px; width: 45%;}
+    #about {height: 475px; width: 45%;}
     #about img {width: 125px; height: 125px; margin-top: 25px; border: 2px solid var(--crna);}
     footer {height: 75px;}
     footer a {font-size: 14px;}
@@ -140,24 +140,24 @@
 
 @media only screen and (max-width: 450px) {
     #social .fa {padding: 7px; font-size: 12px;}
-    #slider {height: 1925px;}
-    #skills {height: 650px; flex-direction: column; justify-content: flex-end; align-items: center;}
+    #slider {height: 2050px;}
+    #skills {height: 675px; flex-direction: column; justify-content: flex-end; align-items: center;}
     .profession .fa {padding: 7px; height: 20px; font-size: 15px;}
     h1 {top: 20px; font-size: 20px;}
     h2 {font-size: 16px;}
     h3 {font-size: 12px;}
-    p {font-size: 3.35vw; margin: 1px;}
-    #gamedev {height: 625px;}
-    #games {height: 550px; top: 75px;}
-    #SCP {height: 125px; width: 100%; border: 2px solid var(--crna); border-left: none; border-right: none;}
-    #Init {height: 125px; width: 100%; border: 2px solid var(--crna); border-left: none; border-right: none;}
-    #Unknwn {height: 125px; width: 100%; border: 2px solid var(--crna); border-left: none; border-right: none;}
-    .gameLogo#Found {height: 125px; width: 125px; border-right: 2px solid var(--crna);}
-    .gameLogo#Alpha {height: 125px; width: 125px; border-left: 2px solid var(--crna);}
-    .gameLogo#Project {height: 125px; width: 125px; border-right: 2px solid var(--crna);}
+    p {font-size: 3.55vw; margin: 1px;}
+    #gamedev {height: 675px;}
+    #games {height: 600px; top: 75px;}
+    #SCP {height: 150px; width: 100%; border: 2px solid var(--crna); border-left: none; border-right: none;}
+    #Init {height: 150px; width: 100%; border: 2px solid var(--crna); border-left: none; border-right: none;}
+    #Unknwn {height: 150px; width: 100%; border: 2px solid var(--crna); border-left: none; border-right: none;}
+    .gameLogo#Found {height: 150px; width: 150px; border-right: 2px solid var(--crna);}
+    .gameLogo#Alpha {height: 150px; width: 150px; border-left: 2px solid var(--crna);}
+    .gameLogo#Project {height: 150px; width: 150px; border-right: 2px solid var(--crna);}
     #videos {height: 300px;}
     iframe {width:250px; height: 139px;}
-    #about {height: 335px; width: 50%;}
+    #about {height: 350px; width: 50%;}
     #about img {width: 75px; height: 75px;}
     footer a {font-size: 12px;}
     label {font-size: 12px;}
