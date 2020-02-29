@@ -50,7 +50,7 @@
     h1 {top: 30px; font-size: 35px;}
     h2 {font-size: 20px;}
     h3 {font-size: 18px;}
-    p {font-size: 20px;}
+    p {font-size: 20px; margin: 3px;}
     #gamedev {height: 1100px;}
     #games {height: 900px;}
     #SCP {height: 250px; width: 90%;}
@@ -110,7 +110,7 @@
     #social .fa {padding: 10px; font-size: 15px;}
     nav {height: 35px;}
     li a {font-size: 16px;}
-    #slider {height: 2275px;}
+    #slider {height: 2300px;}
     .profession {height: 200px; width: 85%;}
     .profession .fa {padding: 10px; height: 30px; font-size: 25px; border: 2px solid var(--crna);}
     h1 {top: 25px; font-size: 25px;}
