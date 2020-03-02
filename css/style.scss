@@ -5,6 +5,14 @@
 html {
 	scroll-behavior: smooth;
 }
+@keyframes transition {
+    0%   {color: var(--crna);}
+    100% {color: var(--crvena);}
+}
+@keyframes transition2 {
+    0%   {color: var(--bela);}
+    100% {color: var(--crvena);}
+}
 body {
 	header {
 		width: 100%;
@@ -44,8 +52,10 @@ body {
 				border-width: 2px;
 				border-color: #ffffff;
 				&:hover {
-					color: #000000;
 					background-color: #ffffff;
+					animation-name: transition;
+    				animation-duration: 1.5s;
+    				animation-fill-mode: forwards;
 				}
 			}
 		}
@@ -73,7 +83,9 @@ body {
 					font-family: 'Squada One', cursive;
 					font-size: 32px;
 					&:hover {
-						color: #a12020;
+						animation-name: transition;
+    					animation-duration: 1s;
+   						animation-fill-mode: forwards;
 					}
 				}
 			}
@@ -275,7 +287,12 @@ body {
 			color: #ffffff;
 			font-size: 24px;
 			font-family: 'Squada One', cursive;
-			margin-right: 5px;
+			margin-right: 20px;
+			&:hover {
+				animation-name: transition2;
+    			animation-duration: 1s;
+    			animation-fill-mode: forwards;
+			}
 		}
 	}
 }
