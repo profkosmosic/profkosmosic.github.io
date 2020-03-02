@@ -73,6 +73,7 @@
 
 @media only screen and (max-width: 768px) {
     header {position: static;}
+    #social .fa:hover {animation-name: none; color: var(--crna);}
     nav {top: 0px;}
     #slider {height: 2700px;}
     #skills {height: 700px; flex-direction: column; justify-content: flex-end; align-items: center;}
@@ -95,6 +96,7 @@
     #about {height: 500px; width: 40%;}
     #about img {width: 150px; height: 150px; margin-top: 75px;}
     footer a {font-size: 16px; margin: 5px;}
+    footer a:hover {animation-name: none; color: var(--crvena);}
     label {font-size: 18px;}
     #news {font-size: 16px;}
     #submitnews {font-size: 16px;}
