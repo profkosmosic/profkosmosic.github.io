@@ -13,18 +13,18 @@ html {
 }
 @keyframes transition {
     0% {
-		color: var(--crna);
+		color: $crna;
 	}
     100% {
-		color: var(--crvena);
+		color: $crvena;
 	}
 }
 @keyframes transition2 {
     0% {
-		color: var(--bela);
+		color: $bela;
 	}
     100% {
-		color: var(--crvena);
+		color: $crvena;
 	}
 }
 body {
