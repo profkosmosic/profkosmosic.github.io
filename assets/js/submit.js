@@ -62,8 +62,18 @@ function Klik() {
     }
     // Ako je errorCount = 0 ili -3 to znaci da je sve u redu i izbacuje se poruka korisniku da je poruka uspesno poslata i kada je poslata
     if(errorCount == 0 || errorCount == -3) {
+        var date = new Date();
+        var hour = "0" + date.getHours();
+        var minute = "0" + date.getMinutes();
+        // Brise nulu ispred minuta i sata implicitnom konverzijom ukoliko je vrednost veca od 9, gde nam nula nije potrebna vise
+        if(minute.length == 3) {
+            minute -= 0;
+        }
+        if(hour.length == 3) {
+            hour -= 0;
+        }
         razmak.style.display = "none";
-        userMessage.textContent = "Thank you " + ime + "! Your message was sent successfully!";
+        userMessage.textContent = "Thank you " + ime + "! Your message was sent successfully at " + hour + ":" + minute + "!";
     }
     // ako je bilo koja druga vrednost izbacujemo poruku korisniku da poruka nije poslata
     else {
